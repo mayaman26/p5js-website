@@ -352,8 +352,8 @@ learn:
   p5-screen-reader-title: स्क्रीन रीडर के साथ p5
   p5-screen-reader: P5 सेट करना ताकि इसे स्क्रीन रीडर के साथ आसानी से उपयोग किया जा सके।
   using-local-server-title: स्थानीय सर्वर का उपयोग करना
-  accessible-labels-title: Writing accessible canvas descriptions
-  accessible-labels: Using labels to make your code accessible to screen readers.
+  accessible-labels-title: सुलभ कैनवास विवरण लिखना
+  accessible-labels: अपने कोड को स्क्रीन रीडर के लिए सरल बनाने के लिए लेबल का उपयोग करना।
   accessible-labels-intro: Introduction
   accessible-labels-intro-1: >-
     In this tutorial, you'll learn how to use <a class = "code" href =
@@ -2208,7 +2208,7 @@ community:
   2019cc_23: कक्षा में सामने बैठा आदमी ऊर्जावान ढंग से माइक्रोफोन में बोल रहा है
   2019cc_24: प्रतिभागियों के समूह फोटो हवा में अपने हाथों से उत्साह से मुस्कुराते हुए
   2019cc_25: लोगों के समूह चार एलसीडी मॉनिटर से बने कैम्प फायर के आसपास बैठते हैं।
-  p5js-community-event-title: p5.js Community Events
+  p5js-community-event-title: p5.js कम्युनिटी कार्यक्रम
   2022-p5js-access-day-title: p5.js Access Day 2022
   2022-p5js-access-day-date: May 21
   2022-p5js-access-day-organizer: Organizer and curator

@@ -2209,12 +2209,12 @@ h2 {
 }
 
 #family {
-    position: absolute;
+    position: fixed;
     z-index: 9999;
     top: 0;
     left: 0;
     /*padding: 0.5em 2em;*/
-    width: 100%;
+    width: 100% !important;
     /* 96, 100% if fixed*/
     border-bottom: 1px solid;
     overflow: none;
@@ -2223,7 +2223,7 @@ h2 {
     -webkit-box-shadow: 0px 0px 10px #333;
     -moz-box-shadow: 0px 0px 10px #333;
     box-shadow: 0px 0px 10px #333;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 1);
     /* */
 }
 

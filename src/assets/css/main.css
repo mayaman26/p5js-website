@@ -148,7 +148,7 @@ textarea {
     pointer-events: all;
 }
 
-#lockup > a {
+#lockup>a {
     position: relative;
     display: block;
     width: 200px;
@@ -157,7 +157,7 @@ textarea {
 
 #logo_image {
     position: absolute;
-    top: 0;         
+    top: 0;
 }
 
 #menu.top_menu,
@@ -245,20 +245,20 @@ textarea {
         display: none;
     }
 
-    .sidebar-menu-btn:checked ~ .sidebar-menu {
+    .sidebar-menu-btn:checked~.sidebar-menu {
         max-height: 475px;
     }
 
-    .sidebar-menu-btn:checked ~ .sidebar-menu-icon .sidebar-nav-icon {
+    .sidebar-menu-btn:checked~.sidebar-menu-icon .sidebar-nav-icon {
         background: transparent;
     }
 
-    .sidebar-menu-btn:checked ~ .sidebar-menu-icon .sidebar-nav-icon:before {
+    .sidebar-menu-btn:checked~.sidebar-menu-icon .sidebar-nav-icon:before {
         transform: rotate(-45deg);
         top: 0;
     }
 
-    .sidebar-menu-btn:checked ~ .sidebar-menu-icon .sidebar-nav-icon:after {
+    .sidebar-menu-btn:checked~.sidebar-menu-icon .sidebar-nav-icon:after {
         transform: rotate(45deg);
         top: 0;
     }
@@ -270,7 +270,7 @@ textarea {
 
 /* <======== Styling for footer menu bar ========> */
 #footer-menu {
-    display: flex;   
+    display: flex;
     flex-wrap: wrap;
     list-style: none;
     font-family: 'Montserrat', sans-serif;
@@ -280,16 +280,16 @@ textarea {
 }
 
 #footer-menu li {
-   margin-right: 1em;
+    margin-right: 1em;
 }
 
-#footer-menu a{
+#footer-menu a {
     color: #ed225d;
-    
-  }
 
-  #footer-menu-socials {
-    display: flex;   
+}
+
+#footer-menu-socials {
+    display: flex;
     flex-wrap: wrap;
     list-style: none;
     font-family: 'Montserrat', sans-serif;
@@ -299,12 +299,13 @@ textarea {
 }
 
 #footer-menu-socials li {
-   margin-right: 1em;
+    margin-right: 1em;
 }
-#footer-menu-socials a{
+
+#footer-menu-socials a {
     color: #ed225d;
-    
-  }
+
+}
 
 /* <=================================================> */
 
@@ -428,7 +429,7 @@ textarea {
     fill: white;
 }
 
-.download_box h4 + p {
+.download_box h4+p {
     display: block;
 }
 
@@ -714,7 +715,7 @@ div.reference-subgroup {
     flex-direction: row-reverse;
     position: relative;
     pointer-events: none;
-    color: #333; 
+    color: #333;
 }
 
 .example-content .edit_space ul li button {
@@ -739,8 +740,8 @@ div.reference-subgroup {
     border-color: rgba(45, 123, 182, 0.25);
 }
 
-.example-content .edit_space ul li button:hover{
-    background:white;
+.example-content .edit_space ul li button:hover {
+    background: white;
 }
 
 .example-content .edit_space .edit_area {
@@ -754,6 +755,7 @@ div.reference-subgroup {
     padding: 1.5em 0.5em 0.5em 0.5em;
     font-size: 15pt;
 }
+
 .display_button {
     margin-bottom: 2em;
     font-family: 'Montserrat', sans-serif;
@@ -1292,6 +1294,10 @@ variable */
         padding: 0.4em 0.3em;
         font: 1.3rem 'Montserrat', sans-serif;
     }
+
+    #processing-sites li:last-child {
+        display: none;
+    }
 }
 
 #showcase-page .nominate a:hover {
@@ -1396,11 +1402,11 @@ h2.featuring {
 }
 
 @media (min-width: 720px) {
+
     /* for desktop/tablet:
    *   - two columns, one each for resources & authors
    *   - indent answer paragraphs in q & a
    */
-
     #showcase-page .showcase-intro h1 {
         font: italic 900 6.35vw 'Montserrat', sans-serif;
     }
@@ -1486,9 +1492,9 @@ h2.featuring {
     COMMUNITY PAGE
    ========================================================================== */
 
-   .email-octopus-form-wrapper label {
+.email-octopus-form-wrapper label {
     font-size: 1.2em;
-  }
+}
 
 
 /* ==========================================================================
@@ -1514,21 +1520,21 @@ h2.featuring {
 
 /*workshop contents*/
 
-#teach-page section.workshopS{
+#teach-page section.workshopS {
     overflow: auto;
 }
 
-#teach-page .workshop-content{
+#teach-page .workshop-content {
     padding: 0.6em;
 }
 
-#teach-page ul.workshops{
+#teach-page ul.workshops {
     padding-top: .4em;
     width: 41%;
     float: left;
 }
 
-#teach-page .btn{
+#teach-page .btn {
     margin-bottom: 0.8em;
     padding-bottom: .4em;
 
@@ -1538,7 +1544,8 @@ h2.featuring {
     border-bottom: 0.1em dashed #ffe8e8;
 }
 
-#teach-page li.workshop .active,li.workshop p:hover{
+#teach-page li.workshop .active,
+li.workshop p:hover {
     margin-bottom: 0.8em;
     padding-bottom: .4em;
 
@@ -1551,7 +1558,7 @@ h2.featuring {
 
 /*workshop banners*/
 
-#teach-page .upcoming-banners{
+#teach-page .upcoming-banners {
     width: 59%;
     float: right;
     padding-top: 0.8em;
@@ -1560,28 +1567,33 @@ h2.featuring {
 
 }
 
-#teach-page .banner2, .banner3, .time2, .time3{
+#teach-page .banner2,
+.banner3,
+.time2,
+.time3 {
     display: none;
 }
 
-#teach-page .banner1:hover, .banner2:hover, .banner3:hover{
+#teach-page .banner1:hover,
+.banner2:hover,
+.banner3:hover {
     border: none;
 }
 
-#teach-page .banner-img{
+#teach-page .banner-img {
     float: left;
     box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     border: none;
 }
 
-#teach-page .banner-img:hover{
+#teach-page .banner-img:hover {
     box-shadow: 0px 0px 5px 2px #e088a1;
     border-radius: 5px;
     border: none;
 }
 
-#teach-page .upcoming-time p{
+#teach-page .upcoming-time p {
     float: right;
     margin-bottom: 0.8em;
     padding-bottom: .4em;
@@ -1648,8 +1660,6 @@ h2.featuring {
 }
 
 
-
-
 #teach-page ul.filters li {
     display: inline;
     list-style: none;
@@ -1690,7 +1700,7 @@ h2.featuring {
 
 }
 
-#teach-page ul.filters li input[type="checkbox"]:checked + label {
+#teach-page ul.filters li input[type="checkbox"]:checked+label {
     color: white;
     background: #ed225d;
 
@@ -1722,7 +1732,6 @@ h2.featuring {
     padding-bottom: .4em;
 
 }
-
 
 
 #teach-page .filter-panel p {
@@ -1980,7 +1989,7 @@ h2.featuring {
 #teach-page .case-list {
     margin-bottom: 0.8em;
     padding-bottom: .4em;
-    display:flex;
+    display: flex;
 
     font: 400 1.0rem "Times", sans-serif;
     line-height: 1.2em;
@@ -1993,7 +2002,7 @@ h2.featuring {
     width: 40%;
 }
 
-#teach-page .tags.selected{
+#teach-page .tags.selected {
     display: inline-block;
     margin-left: 2em;
     margin-right: 2em;
@@ -2008,9 +2017,9 @@ h2.featuring {
 
 #teach-page .caseBtn {
     padding-top: 0.2em;
-    padding-bottom:0.2em;
+    padding-bottom: 0.2em;
     width: 60%;
-    height:max-content;
+    height: max-content;
     float: left;
 }
 
@@ -2119,7 +2128,7 @@ a.here {
     background-color: rgba(237, 34, 93, 0.15);
 }
 
-.container > div:first-of-type {
+.container>div:first-of-type {
     margin-top: 2em;
 }
 
@@ -2310,7 +2319,7 @@ ul.inside {
     height: 14.3%;
 }
 
-.image-row img + img {
+.image-row img+img {
     float: right;
     margin-right: 0;
     margin-bottom: 0.25em;
@@ -2322,7 +2331,7 @@ main div img {
     width: 100%;
 }
 
-p + img {
+p+img {
     margin-top: 0;
 }
 
@@ -2726,9 +2735,24 @@ footer {
     }
 
     #family {
-        display: none;
+        height: 20px;
     }
 
+    #processing-sites {
+        font-size: 10px;
+    }
+
+    #i18n-btn {
+        margin-top: 1rem
+    }
+
+    #processing-sites li:last-child {
+        margin-right: 4rem;
+    }
+
+    /*    #family {*/
+    /*        display: none;*/
+    /*    }*/
     #i18n-btn {
         position: absolute;
         top: 0.5em;
@@ -2904,19 +2928,20 @@ iframe {
     flex-direction: column;
 }
 
-.cnv_div > * {
+.cnv_div>* {
     width: 100px;
     height: auto;
 }
+
 /* teach page */
 
 @media (max-width: 780px) {
- 
-    #teach-page ul.workshops{
+
+    #teach-page ul.workshops {
         width: 100%;
     }
-    
-     #teach-page .upcoming-banners{
+
+    #teach-page .upcoming-banners {
         width: 100%;
         float: left;
         padding-top: 0em;
@@ -2925,9 +2950,9 @@ iframe {
     }
 
     #teach-page .case-list {
-        display:block;
+        display: block;
     }
-    
+
     #teach-page .labels {
         min-width: 100%;
     }
@@ -3068,7 +3093,7 @@ iframe {
     transform: rotate(-21deg);
 }
 
-@media(max-width:1352px) {
+@media (max-width: 1352px) {
 
     #reference-page #asterisk-design-element,
     #download-page #asterisk-design-element {

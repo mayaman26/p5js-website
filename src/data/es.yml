@@ -36,14 +36,14 @@ home:
   start-creating: ¡Empieza a crear con el Editor de p5!
   p1xh1: ¡Hola!
   p1x1: >-
-    ¡p5.js es una biblioteca de JavaScript para la programación creativa, que
-    busca hacer que programar sea accesible e inclusivo para artistas,
+    ¡p5.js es una biblioteca de JavaScript para la programación creativa que
+    se enfoque en que programación sea accesible e inclusivo para artistas,
     diseñadores, educadores, principiantes y cualquier otra persona! p5.js es
     gratuito y de código abierto porque creemos que el software y las
     herramientas para aprenderlo deben ser accesibles para todos.
   p1x2: >-
     Usando la metáfora de bosquejear, p5.js tiene un conjunto completo de
-    funcionalidades para dibujar. Sin embargo, no estás limitado solo a dibujar
+    funcionalidades de dibujo. Sin embargo, no limita solo a dibujar
     en tu lienzo. Puedes tomar toda la página del navegador como tu bosquejo,
     incluyendo los objetos HTML5 para texto, entrada, video, cámara web y
     sonido.
@@ -51,12 +51,12 @@ home:
   p2x1: >-
     Somos una comunidad de, y en solidaridad con, personas de todas las
     identidades y expresiones de género, orientación sexual, raza, etnia,
-    idioma, tipo neurológico, tamaño, competencia, clase, religión, cultura,
+    idioma, tipo neurológico, tamaño, discapacidad, clase, religión, cultura,
     subcultura, opinión política, edad, nivel de habilidad, ocupación y
     antecedentes. Sabemos que no todas las personas tienen el tiempo, los medios
     financieros o la capacidad para participar activamente, pero reconocemos y
-    alentamos cualquier tipo participación. Facilitamos y fomentamos el acceso y
-    el empoderamiento. Todos estamos aprendiendo.
+    incentivamos cualquier tipo de participación. Facilitamos y fomentamos el acceso y
+    el empoderamiento. Todos somos aprendices.
   p2x2: 'p5.js es una interpretación '
   p2x3: ' para la web. Realizamos eventos y operamos con el apoyo de '
   p2x4: .
@@ -85,8 +85,8 @@ copyright:
     La biblioteca p5.js es software libre; puedes redistribuirla y/o modificarla
     según los términos de la 
   copyright2: ' publicada por la Free Software Foundation, versión 2.1.'
-  copyright3: 'La Referencia del lenguaje se encuentra bajo una licencia '
-  copyright4: ' que permite reusar este contenido para propósitos no-comerciales si se otorga el crédito correspondiente.'
+  copyright3: 'La Referencia del lenguaje se encuentra bajo una  '
+  copyright4: ' licencia que permite reusar este contenido para propósitos no-comerciales si se otorga el crédito correspondiente.'
 get started:
   get-started-title: Empezar
   get-started1: >-
@@ -98,11 +98,11 @@ get started:
   get-started5: tu primer bosquejo
   get-started6: '. Si deseas trabajar en la versión de escritorio de p5.js, puedes ir a las '
   get-started7: instrucciones de descarga
-  get-started-button: Copy
-  settingUp-title: Configura p5.js con un editor en tu computadora personal
+  get-started-button: 'Copy'
+  settingUp-title: Configura p5.js con un editor en tu computadora
   download-title: Descarga una copia de la biblioteca p5.js
   hosted-title: Utiliza una versión alojada de la biblioteca p5.js
-  download1: La manera más simple de empezar es usando el ejemplo en blanco incluido en
+  download1: La manera más simple de empezar es usando el ejemplo en blanco que incluye
   download2: p5.js completo
   download3: disponible en el sitio.
   download8: >-
@@ -114,13 +114,12 @@ get started:
     navegador, ves a 
   download11: 'http://localhost:{your-port-num}/empty-example'
   download4: >-
-    Si revisas el archivo index.html, te darás cuenta que tiene un enlace al
+    Si miras al archivo index.html, verás que tiene un enlace al
     archivo p5.js. Si estás buscando usar la versión reducida (comprimida para
     que las páginas carguen más rápidamente), cambia el enlace a p5.min.js.
   download5: >-
-    De forma alternativa, puedes enlazar a un archivo p5.js alojado en línea.
-    Todas las versiones de p5.js están almacenadas en un CDN (Content Delivery
-    Network). Puedes ver un historial de estas versiones aquí: 
+    De forma alternativa, puedes enlazar a un archivo p5.js alojado online.
+    Todas las versiones de p5.js están almacenadas en un CDN (Red de distribución de contenidos o Content Delivery Network). Encontrarás historial de estas versiones aquí: 
   download6: '. En este caso, puedes cambiar el enlace a: '
   download7: 'Una página HTML de ejemplo podría verse así:'
   environment-title: Ambiente
@@ -161,13 +160,13 @@ get started:
   your-first-sketch2: ' incluye esta línea de código: '
   your-first-sketch3: 'Ahora tu código debe estar así: '
   your-first-sketch4: >-
-    La línea que acabas de agreagar dibuja una elipse, con su centro a 50
+    La línea que acabas de añadir dibuja una elipse, con su centro a 50
     píxeles del borde izquierdo y 50 píxeles del borde superior del bosquejo,
     con un ancho y un alto de 80 píxeles.
   your-first-sketch5: ¡Presiona play en el editor para ejecutar el código!
   your-first-sketch6: >-
     Si estás utilizando un lector de pantalla, tienes que activar las salidas
-    accesibles en el editor, fuera del editor tienes que agregar la biblioteca
+    accesibles en el editor, fuera del editor tienes que añadir la biblioteca
     de accesibilidad a tu html. Para aprender más visita el 
   your-first-sketch7: ' tutorial usando p5 con un lector de pantalla'
   your-first-sketch8: >-
@@ -232,7 +231,7 @@ download:
   download-intro: >-
     ¡Bienvenidos! Aunque esta página se titula "Descargar", en realidad contiene
     una colección de enlaces para descargar la biblioteca o comenzar a trabajar
-    en línea. Hemos tratado de ordenar cosas desde lo que un principiante podría
+    online. Hemos tratado de ordenar cosas desde lo que un principiante podría
     desear explorar primero, a los recursos que los programadores más
     experimentados pueden estar buscando.
   editor-title: Editor
